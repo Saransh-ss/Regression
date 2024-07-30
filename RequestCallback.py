@@ -68,10 +68,10 @@ try:
         wait_and_click(driver, '//*[@id="__next"]/div[1]/div/div[2]/div/div[1]/div[2]/div[2]/span')
         print("Clicked on login button.")
         
-        wait_and_send_keys(driver, '/html/body/div[3]/div/div/div[2]/div/div[2]/div[2]/form/div[2]/div[1]/input', 'email')
+        wait_and_send_keys(driver, '/html/body/div[3]/div/div/div[2]/div/div[2]/div[2]/form/div[2]/div[1]/input', 'saranshs@thrillophilia.com')
         print("Entered username.")
         
-        password_field = wait_and_send_keys(driver, '/html/body/div[3]/div/div/div[2]/div/div[2]/div[2]/form/div[2]/div[2]/input', 'password')
+        password_field = wait_and_send_keys(driver, '/html/body/div[3]/div/div/div[2]/div/div[2]/div[2]/form/div[2]/div[2]/input', 'Saransh@217')
         password_field.send_keys(Keys.RETURN)
         print("Entered password.")
         
